@@ -1,4 +1,4 @@
-color_list = ('rood' ,'blouw' , 'geel' , 'groen')
+color_list = ['rood' ,'blouw' , 'geel' , 'groen']
 naam = input('wat is je naam')
 favoriteColor = input('wat is je favorite kleur')
 

@@ -18,9 +18,9 @@ else:
 import random
 
 favoriteColor = input('wat is je favorite kleur?')
-random_number = random.randint(0,9.)
+trueOrFalse = random.randint(0,9)
 
-if random_number % 2 == 0 :
+if trueOrFalse  % 2 == 0 :
     print(f'ik vind {favoriteColor} ook een mooie kleur')
 else :
     print(f'TBG, ik hou niet zo van {favoriteColor} ')
