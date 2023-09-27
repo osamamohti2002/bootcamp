@@ -72,11 +72,37 @@
 
 #opdracht 8
 
-lijst_eten = ['appel', 'pannenkoek', 'kiwi', 'hamburger']
-print('onze menukaart')
-for item in lijst_eten:
-    print(item)
+# lijst_eten = ['appel', 'pannenkoek', 'kiwi', 'hamburger']
+# print('onze menukaart')
+# for item in lijst_eten:
+#     print(item)
+#
+# langste_naam = max(lijst_eten, key=len)
+# print(f"\nHet eten met de langste naam op het menu is: {langste_naam}")
 
-langste_naam = max(lijst_eten, key=len)
+#opdracht 9
+# while True:
+#     try:
+#         getal = int(input('voer getal in tussen 0 en 10'))
+#
+#         if 0<= getal <= 10:
+#             print('je hebt het goede cijfer ', getal)
+#             break
+#         else:
+#             print('fout voer opnieuw cijfer in tussen 0 en 10 ')
+#
+#     except ValueError:
+#         print('Fout voer een geldige waarde in')
 
-print(f"\nHet eten met de langste naam op het menu is: {langste_naam}")
+
+#opdracht 10
+
+MAX = 20
+getal = int(input("Voer een getal in"))
+
+if getal > MAX:
+    print(f"Het getal is groter dan {MAX}")
+elif getal < MAX:
+    print(f"Het getal is kleiner dan {MAX}")
+else:
+    print(f"Het getal is gelijk aan {MAX}")
